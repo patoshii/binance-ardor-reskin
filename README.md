@@ -1,5 +1,7 @@
 ----
-# Welcome to Ardor -- RESKIN FOR BINANCE CHAIN DEX! #
+# Welcome to Ardor -- RESKIN FOR BINANCE CHAIN DEX POC DEMO! #
+
+This was done for the binance chain competition to build a dex. This ardor wallet software has been modified on the front end to simulate a dex made for Binance. Demo can be seen here: https://www.youtube.com/watch?v=-ZQe0ByJmtA
 
 ----
 ## What is Ardor? ##
