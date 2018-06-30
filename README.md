@@ -1,5 +1,5 @@
 ----
-# Welcome to Ardor! #
+# Welcome to Ardor -- RESKIN FOR BINANCE CHAIN DEX! #
 
 ----
 ## What is Ardor? ##
