@@ -1,0 +1,282 @@
+/* modifying original css */
+.paper-wallet-link-container {
+  display: none !important;
+}
+body > .header .logo {
+  width: 110px;
+}
+body > .header .navbar {
+  margin-left: 100px;
+}
+
+/* Login */
+.lockscreen.fixed.loading { 
+  background: url(https://seeklogo.com/images/B/binance-coin-bnb-logo-97F9D55608-seeklogo.com.png) no-repeat; 
+  background-position-x: center;
+  background-position-y: 30%;
+}
+.lockscreen,.logo,.navbar {
+  background: url(https://resource.binance.com/resources/img/index-banner.jpg) repeat;
+}
+
+#logo-text {
+  margin: 5px 0;
+  color: #f3ba2f;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+/* main */
+a{
+ color: #f3ba2f; 
+}
+.confirmations-bar-li-not-bundled,.confirmations-bar-li-unconfirmed {
+ background: #f3ba2f;
+}
+
+/* Currency Page */ 
+#currencies_table {
+  display:none;
+}
+
+#currencies_page .data-pagination {
+  display:none;
+}
+
+#currencies_page tbody tr td:nth-child(3) {
+  color: red;
+} 
+
+#currencies_page tbody tr td:nth-child(4) {
+    display: none !important;
+}
+#currencies_page tbody tr td:nth-child(6) a:first-child {
+    display: none !important;
+}
+
+#currencies_page [data-i18n="supply"] {
+    display: none !important;
+}
+
+/* TRADINGVIEW GRAPH */
+#tradingview_0548a { height: 400px; }
+
+#notification_menu .badge:first-child,.navbar .nav > li > a:hover, .navbar .nav > li > a:active, .navbar .nav > li > a:focus, .navbar .nav .open > a, .navbar .nav .open > a:hover, .navbar .nav .open > a:focus,.navbar .nav > li > a:hover, .navbar .nav > li > a:active, .navbar .nav > li > a:focus, .navbar .nav .open > a, .navbar .nav .open > a:hover, .navbar .nav .open > a:focus {
+ background-color: #f3ba2f !important;
+}
+.fa-circle-o,.fa-random {
+  color: #555555;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background: black !important;
+}
+.dashboard_first_row_tile_1,#dashboard_assets_val_div,#dashboard_messages_div {
+  width: 50%;
+}
+
+.small-box,.label-primary,.btn.btn-primary {
+  background: linear-gradient(to right, #444,#f3ba2f 100%);
+  border-color: unset;
+}
+
+/* LOGO CSS */
+#progress-container {
+  display:none;
+}
+#lockscreen .binance{
+   width: 200px;
+   height: 200px;
+   margin: auto;
+   margin-bottom: 85px;
+ }
+
+#logo .binance{
+   width: 30px;
+   height: 30px;
+   margin:auto;
+   margin-top: 10px;
+}
+
+.binance .bnbContainer {
+   width:100%;
+   height:100%;
+   animation: transformLogo 4s 0s 1;
+   animation-fill-mode:forwards;
+   margin-top: 7px;
+ }
+
+.binance .top-row {
+    width: 100%;
+    height: 20%;
+    position: relative;
+ }
+.binance .top,.binance .center, .binance .bottom {
+    position: absolute;
+    background: transparent;
+    height:100%;
+    display:inline-block; 
+ }
+.binance .top-one {
+    width: 20%;
+    left: 0;
+  }
+.binance .top::before,.binance .top::after,
+.binance .center::before,.binance .center::after,
+.binance .bottom::before,.binance .bottom::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+.binance .top::before {
+  top: 0;
+  left: 0;
+  border-top-color: #f3ba2f;
+  border-right-color: #f3ba2f;
+  animation: border 2s 1;
+ }
+.binance .top::after {
+  bottom: 0;
+  right: 0;
+  animation: borderAfter 2s 1s 1;
+  animation-fill-mode:forwards;
+}
+.binance .center::before {
+  top: 0;
+  left: 0;
+  border-top-color: #f3ba2f;
+  border-right-color: #f3ba2f;
+  animation: border 2s 1;
+ }
+.binance .center::after {
+  bottom: 0;
+  right: 0;
+  animation: borderAfter 2s 1s 1;
+  animation-fill-mode:forwards;
+} 
+.binance .bottom::before {
+  top: 0;
+  left: 0;
+  border-top-color: #f3ba2f;
+  border-right-color: #f3ba2f;
+  animation: border 2s 1;
+ }
+.binance .bottom::after {
+  bottom: 0;
+  right: 0;
+  animation: borderAfter 2s 1s 1;
+  animation-fill-mode:forwards;
+}
+.binance .top.top-two {
+  left: 20%;
+  width: 45%;
+}
+.binance .top.top-three {
+  width: 20%;
+  right: 0;
+}
+
+.binance .center-row {
+  width: 100%;
+  height: 60%;
+  position: relative;:
+}
+.binance .center-one {
+  width: 20%;
+  height: 80%;
+  left:0;
+}
+.binance .center.center-two {
+  width:20%;
+  height:35%;
+  left: 40%;
+  bottom: 30%;
+}
+.binance .center-three{
+  width: 20%;
+  right: 0;
+  height: 80%;
+  bottom: 0;
+}
+.binance .bottom-row {
+  position: relative;
+  height:20%;
+}
+.binance .bottom-one {
+  width: 20%;
+  left: 0;
+}
+.binance .bottom.bottom-two {
+  width: 45%;
+  left: 35%;
+}
+.binance .bottom.bottom-three {
+  right: 0;
+  width: 20%;
+} 
+
+@keyframes transformLogo {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+}
+
+@keyframes border {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  25% {
+    width: 100%;
+    height: 0;
+  }
+  50% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f3ba2f;
+  }
+}
+
+@keyframes borderAfter {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  25% {
+    width: 100%;
+    height: 0;
+  }
+  50% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background:#f3ba2f;
+    border: 1px solid #f3ba2f;
+  }
+}
+
+
+@media (max-width: 800px) { 
+  body > .header .navbar  {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) { 
+  #dashboard_page .data-container td:nth-child(3), #transactions_page .data-container td:nth-child(3) {
+    background: #f3ba2f !important;
+  }
+}
